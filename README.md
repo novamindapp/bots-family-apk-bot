@@ -8,7 +8,7 @@ Bot for the channel **Our Bots Family | Наша семья ботов**
 1. User sends an app name (e.g. `WhatsApp`, `Facebook Lite`).
 2. Bot searches **APKPure** (`https://apkpure.com/search?q=...`, verified
    live 2026-11-19) and shows the top 5 results with name + package.
-3. User picks one, bot gives the APK download link + the APKPure page.
+3. User picks one, taps 'Download APK', and the bot downloads the APK and sends the FILE in the chat (up to 48 MB; bigger APKs get the download link instead) + the APKPure page.
 4. **Before any download works, the user MUST join @BotsFamilyOfficial.**
    Checked on `/start`, on every search and on every pick. If not joined,
    the bot shows a Join button + an "I joined, check again" button, and
